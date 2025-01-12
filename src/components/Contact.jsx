@@ -4,7 +4,7 @@ import MapC from "./MapC";
 import ContactInfo from "./ContactInfo";
 const Contact = () => {
   return (
-    <div>
+    <div className="super-container">
       <ContactInfo/>
       <MapC/>
     </div>

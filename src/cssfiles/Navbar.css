@@ -6,9 +6,14 @@
   background-color: #10161e;
   color: var(--text-light);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
+  position: fixed; /* Change from relative to fixed */
+  top: 0; /* Ensure it stays at the top */
+  left: 0; /* Align with the left edge */
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box; 
   z-index: 10;
 }
+
 
 .navbar-logo {
   font-size: 1.8rem;

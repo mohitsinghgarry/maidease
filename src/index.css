@@ -7,12 +7,10 @@
     --hover-bg: #2563eb;
       }
   
-  body,html {
+  body {
     margin: 0;
     padding: 0;
     font-family: "Varela Round", serif;
     font-weight: 400;
     font-style: normal;
-    /* background-color: var(--secondary-bg);
-    color: var(--text-light); */
   }
